@@ -1,0 +1,461 @@
+body{
+	background-color: lightyellow;
+}
+#mainHeading{
+	text-align: right;
+	background-color: black;
+	color: white;
+	font-size: 68px;
+	font-weight: 200;
+	font-style: bold;
+	background-image: url(logo.jpg);
+	background-repeat: no-repeat;
+	text-align: right;
+}
+#mainTagline{
+	font-size: 20px;
+	font-style: italic;
+	color: yellow;
+}
+a{
+    display: inline;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 6px;
+    background-color: blue;
+    margin: none;
+    border: 4px groove orange;
+    font-weight: bold;    
+    font-size: 18px;
+}
+a:hover {
+     color: red;
+     background-color: white;
+     text-decoration: none;
+     font-family: Verdana;
+}
+nav{
+     padding: 14px;
+     text-align: center;
+} 
+ul {
+    list-style-type: none;
+    padding: 15px;
+    overflow: hidden;
+    text-align: center;
+    
+}
+li {
+    display: inline-block;
+    margin: auto;
+}  
+#sectionPageDesc{
+		display:block;
+		margin: 20px;
+	 	padding: 10px;border: 8px inset deepskyblue;
+	 	border-radius: 18px;
+	 	box-shadow: rgb(120,120,120) 10px 15px 10px;
+	 	background: #ddd;
+	 	background-color: lightpink;
+		background-image: linear-gradient(skyblue,lightgreen) ;
+		border-radius: 40px;
+		border: 5px solid blue;
+		text-align: justify;
+		font-style: none;
+		font-family: Verdana;
+		font-size: 16px;
+		color: black;
+		line-height: 150%
+
+} 
+.text3d{
+   background-color: none;
+   width: 50%;
+   display:block;
+   margin: 5px 40% 5px 40%;
+   padding: 10px;
+   font-size:35pt;
+   color: green;
+   text-shadow: 0px 1px 0px #999,
+  				0px 2px 0px #888,
+			   	0px 3px 0px #777,
+			   	0px 4px 0px #666,
+			   	0px 5px 0px #555,
+			   	0px 6px 0px #444,
+			   	0px 7px 0px #333,
+			   	0px 8px 7px #001135; 
+}
+#text3d1{
+   background-color: none;
+   width: 30%;
+   display:block;
+   margin: 20px 30% 10px 30%;
+   padding: 10px;
+   font-size:30pt;
+   color: blue;
+   text-align: center;
+   text-shadow: 0px 1px 0px #999,
+  				0px 2px 0px #888,
+			   	0px 3px 0px #777,
+			   	0px 4px 0px #666,
+			   	0px 5px 0px #555,
+			   	0px 6px 0px #444,
+			   	0px 7px 0px #333,
+			   	0px 8px 7px #001135; 
+}
+#text3d2{
+   background-color: none;
+   width: 30%;
+   display:block;
+   margin: 20px 30% 10px 30%;
+   padding: 30px;
+   font-size:40pt;
+   color: red;
+   text-align: center;
+   text-shadow: 0px 1px 0px #999,
+  				0px 2px 0px #888,
+			   	0px 3px 0px #777,
+			   	0px 4px 0px #666,
+			   	0px 5px 0px #555,
+			
+			   	0px 8px 7px #001135; 
+}
+#pageLine {
+		border-radius: 40px;		
+		width: 80%;
+		margin: auto;
+		background: linear-gradient(black, #D4D3DD); 
+	    border: 14px ridge yellow;
+        color:rgba(100%, 0%, 0%, 0.8);
+        white-space: pre;
+        color: yellow;
+        text-align: center;
+        font-size: 26px;
+}
+#pageLine1 {
+		border-radius: 40px;		
+		width: 98%;
+		margin: auto;
+		background: linear-gradient(black, #D4D3DD); 
+	    border: 14px ridge yellow;
+        color:rgba(100%, 0%, 0%, 0.8);
+        white-space: pre;
+        color: white;
+        text-align: center;
+        font-size: 22px;
+}
+#pageLine3 {
+		border-radius: 40px;		
+		width: 70%;
+		margin: auto;
+		background: linear-gradient(black, #D4D3DD); 
+	    border: 14px ridge yellow;
+        color:rgba(100%, 0%, 0%, 0.8);
+        white-space: pre;
+        color: white;
+        text-align: left;
+        font-size: 22px;
+}
+#pageLine4 {
+		border-radius: 40px;		
+		width: 80%;
+		margin: auto;
+		background: linear-gradient(darkblue, #D4D3DD); 
+	    border: 14px ridge orange;
+        color:rgba(100%, 0%, 0%, 0.8);
+        white-space: pre;
+        color: white;
+        text-align: left;
+        font-size: 22px;
+}
+#pageLine5 {
+		border-radius: 40px;		
+		width: 80%;
+		margin: auto;
+		background: linear-gradient(black, #D4D3DD); 
+	    border: 14px ridge green;
+        color:rgba(100%, 0%, 0%, 0.8);
+        white-space: pre;
+        color: white;
+        text-align: left;
+        font-size: 22px;
+}
+#contactAddress{
+	color: darkblue;
+	font-size: 28px;
+}
+#contactEmail{
+	font-size: 24px;
+}
+#supportService{
+	text-align: center;
+	background-color: darkblue;
+	color: white;
+	white-space: pre;
+	font-style: bold;
+}
+#whatandwhy{
+	font-style:bold;
+	font-size: 18px;
+	color: blue;
+	font-family: Arial;	
+}
+#footer{
+	text-align:center;
+	font-size:17px;
+}
+.mainNumber{
+	color: black;
+	float: right;
+	font-size: 20px;
+}
+#email{
+	font-size: 16px;
+}
+#contactSection{		
+		display:block; margin: 40px;
+		padding: 10px; 
+		border-radius: 20px;
+		font-weight: bold;
+		color: red;
+	 	box-shadow: 10px 10px 10px 10px black outset;
+	 	opacity: 0.7 ;
+	 	background: url(address.jpg) no-repeat center left,
+	 	url(contact.jpg) no-repeat center right;
+	 	border: 10px ridge blue;
+	 	text-align:center;	 	
+}
+#whatsNew1{		
+		display:block; margin: 40px;
+		padding: 10px; 
+		width: 80%;
+		border-radius: 20px;
+		font-weight: bold;
+		color: red;
+	 	box-shadow: 10px 10px 10px 10px black outset;
+	 	opacity: 0.7 ;
+	 	background: url(time3.gif) no-repeat center left;
+	 	border: 10px ridge red;
+	 	text-align:center;
+}
+#whatsNew2{		
+		display:block; margin: 40px;
+		padding: 10px; 
+		width: 80%;
+		border-radius: 20px;
+		font-weight: bold;
+		color: red;
+	 	box-shadow: 10px 10px 10px 10px black outset;
+	 	opacity: 0.7 ;
+	 	background: url(doubts.gif) no-repeat center left;
+	 	border: 10px ridge red;
+	 	text-align:center;
+}
+#whatsNew3{		
+		display:block; margin: 40px;
+		padding: 10px; 
+		width: 80%;
+		border-radius: 20px;
+		font-weight: bold;
+		color: red;
+	 	box-shadow: 10px 10px 10px 10px black outset;
+	 	opacity: 0.7 ;
+	 	background: url(seminar.gif) no-repeat center left;
+	 	border: 10px ridge red;
+	 	text-align:center;
+}
+#products {
+	width: 80%;
+	margin: auto;
+	border-spacing: 10px 10px;
+	text-align: center;
+	padding: 20px;
+	border-left-color: #d40e52;
+	border-right-color:red;
+	border-top-color:#ee8d09;
+	border-bottom-color: #73c5e1;
+	border-style: groove;
+	border-width: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+}
+.productsTH {
+		background-color: blue;
+		padding: 8px;
+		color: white;
+		font-size: 40px;
+}
+#category1 {
+		background-color: green;
+		padding: 8px;
+		color: white;
+		font-size: 60px;
+		font-weight: bold;
+}
+#category2 {
+		background-color: skyblue;
+		padding: 8px;
+		color: white;
+		font-size: 60px;
+}
+#category3 {
+		background-color: orange;
+		padding: 8px;
+		color: white;
+		font-size: 60px;
+}
+#category4 {
+		background-color: purple;
+		padding: 8px;
+		color: white;
+		font-size: 60px;
+}
+.productsTD {
+		padding: 5px;
+}
+.productsTD:nth-child(odd) {
+		width: 80px;
+		height: 60px;
+}
+.productsTD:nth-child(even) {
+		width: 80px;
+		height: 60px;
+}
+.productsTR:nth-child(odd) {
+	background-color:lightgreen;
+	border:0px; 
+}
+.productsTR:nth-child(even) {
+	background-color:lightgreen;
+	border:0px; 
+}
+#multimedia {
+	width: 60%;
+	margin: auto;
+	border-spacing: 10px 10px;
+	text-align: center;
+	padding: 20px;
+	border-left-color: #d40e52;
+	border-right-color:red;
+	border-top-color:#ee8d09;
+	border-bottom-color: #73c5e1;
+	border-style: dashed solid groove;
+	border-width: 30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 40%;
+}
+.multimediaTH {
+		background-color: red;
+		padding: 8px;
+		color: yellow;
+		font-size: 40px;
+}
+fieldset {
+	border:3px solid red;
+	width: 40%;
+}
+legend{
+	font-size: 16px;
+	color: blue;
+	font-family: verdana;
+}
+table {
+	width: 100%;
+	color: white;
+	font-size: 18px;
+}
+.jobsTable {
+	width: 100%;
+	color: white;
+	font-size: 25px;	
+}
+.flex-item {
+	margin: auto;
+	color: maroon;
+}
+tr{
+	background-color: blue;	
+}
+
+td {
+	vertical-align: top;
+	padding: 5px 10px;
+}
+td:nth-child(even)
+{
+	width: 400px;
+}
+
+#comments{
+	font-family: verdana;
+	color: white;
+	font-size: 12px;
+}
+#comments1{
+	font-family: verdana;
+	color: white;
+	font-size: 14px;
+}
+
+/* Media queries for mobile devices */
+
+@media screen and (min-width: 320px) {
+	a {
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		 border-radius:5px;
+		 font-size: 8pt;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	a {
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		 border-radius:5px;
+		 font-size: 9pt;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	a {
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		 border-radius:5px;
+		 font-size: 10pt;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	a {
+		-moz-border-radius:5px;
+		-webkit-border-radius:5px;
+		 border-radius:5px;
+		 font-size: 11pt;
+	}
+}
+.jobsTable{
+  	text-align:justify;
+  	padding:2px;	
+  }
+
+.jobsTable tr td{
+	border: 4px groove skyblue;
+  	border-spacing:1px;
+  	padding:2px;
+  }
+  
+.jobsTable tr:first-child{
+  	text-align: center;
+  	font-weight: bold;
+    color: yellow;
+    background-color: red;  
+  }
+  
+.jobsTable tr td:nth-child(odd){
+	background-color: blue;
+	text-align: center;
+	}
