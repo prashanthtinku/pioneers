@@ -20,9 +20,13 @@ public class NewTest {
 	  obj.findElement(By.xpath(".//*[@id='links']/li["+i+"]/a")).click();
 	  System.out.println("Clicked on the link "+obj.findElement(By.xpath(".//*[@id='links']/li["+i+"]/a")).getText());
 	  Thread.sleep(2000);
+	  
 	  }
   }
-  
+  @Test
+  public void levelTwo(){
+	  System.out.println("Verify level two Navigations");
+  }
   @BeforeMethod
   public void beforeMethod() {
 	  System.out.println("Before Open Application Method");
