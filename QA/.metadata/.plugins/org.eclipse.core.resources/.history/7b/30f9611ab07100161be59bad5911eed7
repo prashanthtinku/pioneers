@@ -1,0 +1,25 @@
+package gui;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.Test;
+
+public class OrderFill {
+  @Test
+  public void OrderFilling() {
+	  WebDriver obj;
+	  System.setProperty("webdriver.gecko.driver", "D:\\SELENIUM TRAINING\\SETUP\\geckodriver.exe");
+	  obj=new FirefoxDriver();
+	  obj.manage().window().maximize();
+	  obj.get("file:///D:/ITU/GIT/MyWork/FinalProject/pioneers/Development/index.html");
+	  System.out.println("Clicking on Orders");
+	  obj.findElement(By.xpath(".//*[@id='links']/li[8]/a")).click();
+	  System.out.println("Clicked on the Orders Link");
+	  obj.findElement(By.xpath(".//*[@id='firstName']")).sendKeys("Pioneers");
+	  obj.findElement(By.xpath(".//*[@id='lastName']")).sendKeys("Project");
+	  obj.findElement(By.xpath("html/body/form/fieldset[1]/table/tbody/tr[3]/td[2]/textarea")).sendKeys("Pioneers Address"+Keys.ENTER+"Street Number 1"+Keys.ENTER+"California");
+	  
+  }
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+  <test name="Click Links" >
+    <classes>
+       <class name="NewTest" />
+    </classes>
+  </test>
+ 
+  <test name="Fill Orders">
+    <classes>
+      <class name="OrderFill"/>
+      
+    </classes>
+  </test>
+</suite>

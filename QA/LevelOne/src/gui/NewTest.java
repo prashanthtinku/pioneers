@@ -19,11 +19,11 @@ public class NewTest {
 	  for(int i=1;i<=10;i++){
 	  obj.findElement(By.xpath(".//*[@id='links']/li["+i+"]/a")).click();
 	  System.out.println("Clicked on the link "+obj.findElement(By.xpath(".//*[@id='links']/li["+i+"]/a")).getText());
-	  Thread.sleep(2000);
-	  
+	  Thread.sleep(2000);	  
 	  }
+	  obj.quit();
   }
-  @Test
+  @Test(priority=2)
   public void levelTwo(){
 	  System.out.println("Verify level two Navigations");
   }
